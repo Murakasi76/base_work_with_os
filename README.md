@@ -50,3 +50,30 @@ By completing these exercises, you will gain practical experience with:
 - Navigating and manipulating the file system in Python.  
 - Checking file and directory properties.  
 - Combining `os` module functions to build simple file management scripts.
+
+# File & Directory Manager in Python
+
+## Overview
+This project is a simple Python script that demonstrates how to work with **directories and files** using the built-in `os` module.  
+It creates a new directory, generates text files inside it, and then lists all contents of the directory (distinguishing between files, folders, and other types).
+
+---
+
+## Features
+- Detects the current working directory of the script.  
+- Creates a new directory (`project_test`) if it does not exist.  
+- Creates two files inside this directory:
+  - `readme.txt`
+  - `data.txt`
+- Prints the directory contents:
+  - `DIR: ...` → for subdirectories  
+  - `FILE: ...` → for regular files  
+  - `OTHER: ...` → for other types (symlinks, sockets, devices, etc.)
+
+---
+
+## Example Output
+```bash
+FILE: readme.txt
+FILE: data.txt
+
